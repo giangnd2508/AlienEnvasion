@@ -23,7 +23,7 @@ def run_game():
         ship_1.update()
         bullets.update()
         gf.update_bullets(bullets)
-        gf.update_screen(ai_settings, screen, ship_1, alien1, bullets)
+        gf.update_screen(ai_settings, screen, ship_1, aliens, bullets)
 
 
 run_game()
